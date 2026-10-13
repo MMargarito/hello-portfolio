@@ -1,0 +1,22 @@
+{
+    "Tuesday": {
+        "Topic": "New concepts: read and Tutor session on the weeks's lesson.",
+        "Hours": 2.0
+    },
+    "Thursday": {
+        "Topic": "Build: start the week's exercise or project",
+        "Hours": 2.0
+    },
+    "Friday": {
+        "Topic": "Build: finish the exercise commit and push",
+        "Hours": 2.0
+    },
+    "Saturday": {
+        "Topic": "Free time: Finish what ever I couldn't during the week",
+        "Hours": 3
+    },
+    "Sunday": {
+        "Topic": "Review: repo review, Tester quiz, update TIL.md and the record",
+        "Hours": 3
+    }
+}
