@@ -2,10 +2,10 @@ import json
 import datetime as dt
 from pathlib import Path
 
-script_dir = Path(__file__).resolve().parent
-file_path = script_dir.parent/"hello-portfolio/plan.json"
+file_path = f"{Path(__file__).resolve().parent}/plan.json"
 
-# today = "Wednesday"
+
+#Getting todays date with datetime.
 today = dt.date.today().strftime("%A")
 
 
@@ -16,7 +16,7 @@ def main():
 
         try:
             if plan_dict[today]:
-                print(f"Today is {today} The topic will be{plan_dict[today]['Topic']}. You are expected to spend {plan_dict[today]['Hours']} on this topic.")
+                print(f"Today is {today} The topic will be {plan_dict[today]['Topic']}. You are expected to spend {plan_dict[today]['Hours']} hours on this topic.")
         except KeyError:
             print("There is no planned study session today.")
 
