@@ -14,12 +14,12 @@ def main():
         plan_dict = json.load(plan)
 
         try:
-           plan_dict[today]
+           day = plan_dict[today]
         except KeyError:
             print("There is no planned study session today.")
 
         else:
-            print(f"Today is {today}. The topic will be {plan_dict[today]['Topic']}. You are expected to spend {plan_dict[today]['Hours']} hours on this topic.")
+            print(f"Today is {today}. The topic will be {day['Topic']}. You are expected to spend {day['Hours']} hours on this topic.")
 
 
 
