@@ -21,6 +21,8 @@ def main():
         else:
             print(f"Today is {today}. The topic will be {day['Topic']}. You are expected to spend {day['Hours']} hours on this topic.")
 
+            
+
 
 
 if __name__ == "__main__":
